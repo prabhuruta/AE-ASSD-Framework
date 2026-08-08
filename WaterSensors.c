@@ -12,11 +12,11 @@
 #define USE_SERIAL 1
 
 // ── Wi‑Fi / Firebase ──────────────────────────────────────────────────
-const char *WIFI_SSID = "Redmi 14C 5G";
-const char *WIFI_PASS = "9892491212";
+const char *WIFI_SSID = "";
+const char *WIFI_PASS = "";
 #if USE_FIREBASE
-#define FB_API_KEY "AIzaSyDtongAg6DcJw4KeuF0yxMVzGk2MJo41R4"
-#define FB_DATABASE_URL "https://mywaterproject-e6489-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define FB_API_KEY ""
+#define FB_DATABASE_URL ""
 #endif
 
 // ── Logging interval ──────────────────────────────────────────────────
